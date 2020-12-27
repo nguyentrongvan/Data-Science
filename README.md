@@ -100,3 +100,16 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |8|Lựa chọn mô hình học, đánh giá kết quả thu được, trực quan độ lỗi, đánh giá + kết luận|Nguyễn Trọng Văn, Lê Đức Hòa|
 
 ### 8. Hướng dẫn chạy code:
+Cấu trúc code chia làm 3 file:
+- ***CrawlData.ipynb***: File notebook chứa code thực thi thu thập dữ liệu. Để chạy code tải phiên bản chomredrive phù hợp với hệ đêìu hành sử dụng đẻ cùng thư mục với file notebook. Dùng jupyter-lab (hoặc jupyter-notebook) để mở file và chọn *Run -> Run All* hoặc *Kernel -> Restart Kernel and Run All*.
+- ***DataPreprocessing.ipynb***: File notebook thực hiện phân tích, tiền xử lý và trực quan hóa dữ liệu. Dùng jupyter-lab (hoặc jupyter-notebook) để mở file và chọn *Run -> Run All* hoặc *Kernel -> Restart Kernel and Run All*.
+- ***ModelPrediction.ipynb***: File notebook thực thi chuẩn bị dữ liệu cho quá trình học, các model được lựa chọn, kết quả thu được và kết luận. Dùng jupyter-lab (hoặc jupyter-notebook) để mở file và chọn *Run -> Run All* hoặc *Kernel -> Restart Kernel and Run All*.
+
+Dữ liệu được thu thập lưu trữ trong thư mực Data với tổ chức:
+- Data:
+  - Crawl: chứa dữ liệu thô khi mới được thu thập về.
+  - Normalize:
+    - Data.csv: data sau khi ghép các file thô lại. (thu thập từng file nhỏ rồi ghép lại thành file lớn)
+    - data_house.csv: dữ liệu nhà được lọc lại.
+  - Preprocessing:
+    - pr
