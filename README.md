@@ -28,7 +28,7 @@ Có thể phân loại nhà ở (mặt tiền, ngõ hẻm,biệt thự, ...) the
 - File *CrawData.ipynb* là file code thực hiện thu thập dữ liệu.
 
 ### 4. Tổng quan dữ liệu thu thập:
-- Dữ liệu thu thập được tổng cộng có 19411 mẫu và tổng số 30 thuộc tính.
+- Dữ liệu thu thập được tổng cộng có 19,411 mẫu và tổng số 30 thuộc tính.
 - Dữ liệu được thu thập từ tin đăng mua bán giao dịch nhà đất của 19 quận thuộc Thành phố Hồ Chí Minh.
 - Thuộc tính cần dự đoán là `house_type` - tức là `Loại nhà ở` với 4 giá trị bao gồm: 
   - Nhà mặt tiền, mặt phố.
@@ -72,7 +72,31 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |house_type|Loại nhà ở|Chuỗi ký tự|Ví dụ: Nhà mặt tiền, mặt phố, Nhà biệt thự, Nhà phố liền kề, Nhà ngỏ, hẻm|
 
 ### 6. Tự đánh giá đồ án:
+***Nhận xét:***
+- Đồ án hoàn thành tốt và đúng thời gian quy định.
+- Công việc được phân công hợp lý rõ ràng.
+- Dữ liệu thu thập được phục vụ khá tốt cho quá trình thực hiện đồ án, số lượng mẫu thu thập nhiều hơn so với mục tiêu ban đầu (mục tiêu được 10,000 mẫu, tổng thu thập được 19,411 mẫu). Các trường thuộc tính dữ liệu thu thập được nhiều hơn sau khi tiến hành parse HTML so với lúc ban đầu quan sát các trường thông tin có trên website.
+- Kết quả thu được cuối cùng đạt được 80-90% mục tiêu đề ra là có thể mô hình hóa được dữ liệu để dự đoán thuộc tính lớp.
+- Trả lời được cho câu hỏi đặt ra.
+
+***Hạn chế:***
+- Việc hiểu dữ liệu để tiến hành thu thập mất khá nhiều thời gian.
+- Quá trình thu thập dữ liệu và tiền xử lý gặp nhiều khó khăn khi không kiểm soát được phân bố các giá trị mong muốn -> Tạo ra sự chênh lệch giá trị.
+
+***Đề xuất:***
+- Để có thể cải thiện tốt hơn cho mô hình dự đoán, cần có thêm dữ liệu đa dạng hơn (quy mô dữ liệu hiện giờ chỉ gói gọn ở khu vực TP.HCM các quận) và phân bố dữ liệu hợp lý hơn.
+- Nếu dữ liệu thu thập đủ lớn và đủ tài nguyên sử dụng, có thể thiết kế các kiến trúc mạng học sâu phù hợp hoặc kết hợp các phương pháp rút trích đặc trưng khác nhau để tạo ra những đặc trưng tốt hơn cho quá trình học.
 
 ### 7. Phân công công việc:
+|STT|Tên công việc|Phân công|
+|:----------:|:----------:|:----------:|
+|1|Đặt vấn đề, suy nghĩ câu hỏi, tìm nguồn dữ liệu|Nguyễn Trọng Văn, Lê Đức Hòa|
+|2|Xác định các trường thuộc tính cần thiết và liên quan cho việc thu thập|Nguyễn Trọng Văn|
+|3|Viết chương trình Parse HTML và tiến hành thu thập dữ liệu|Lê Đức Hòa|
+|4|Quan sát dữ liệu thu thập được phân tích, thực hiền tiền xử lý: xóa trùng lắp, rời rạc hóa, gán nhãn|Nguyễn Trọng Văn|
+|5|Tiền xử lý dữ liệu: điền rỗng, chuẩn hóa dữ liệu số|Lê Đức Hòa|
+|6|Trực quan hóa dữ liệu, nhận xét|Nguyễn Trọng Văn|
+|7|Thực hiện upsampling dữ liệu bị lệch, chuẩn hóa dữ liệu chuẩn bị cho quá trình học|Lê Đức Hòa|
+|8|Lựa chọn mô hình học, đánh giá kết quả thu được, trực quan độ lỗi, đánh giá + kết luận|Nguyễn Trọng Văn, Lê Đức Hòa|
 
 ### 8. Hướng dẫn chạy code:
