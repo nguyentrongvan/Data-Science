@@ -44,8 +44,8 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |address|Địa chỉ|Chuỗi ký tự|Ví dụ: Đường Nguyễn Văn Nguyễn, Phường Tân Định, Quận 1, Tp Hồ Chí Minh|
 |project_name|Tên dự án mua bán|Chuỗi ký tự|Ví dụ: Vạn Xuân Đất Việt|
 |apartment_code|Mã căn hộ|Chuỗi ký tự|Ví dụ: 88, 10|
-|block_name|Tên của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: |
-|block_code|Mã của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: |
+|block_name|Tên của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: KDC Vĩnh Loccj 3|
+|block_code|Mã của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: D3, B2|
 |square|Diện tích đất (dùng cho mua bán đất)|Số thực|Ví dụ: 30 m2|
 |square_area|Diện tích đất (dùng cho mua bán nhà)|Số thực|Ví dụ: 100 m2|
 |square_in_use|Diện tích sử dụng (tổng diện tích nền được xây dựng)|Số thực| Ví dụ: 200 m2|
@@ -57,18 +57,18 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |height|Chiều dài khu đất|Số thực|Ví dụ: 4.5 m, 3 m|
 |door|Hướng cửa chính|Chuỗi ký tự|Ví dụ: Tây-Nam, Bắc|
 |balcony|Hướng ban công|Chuỗi ký tự|Ví dụ: Bắc, Đông Nam|
-|estate_type|Loại hình đất|Chuỗi ký tự||
-|office_type|Loại hình văn phòng|Chuỗi ký tự||
-|apartment_type|Loại hình căn hộ|Chuỗi ký tự||
+|estate_type|Loại hình đất|Chuỗi ký tự|Ví dụ: Đất thổ cư, Đất công nghiệp|
+|office_type|Loại hình văn phòng|Chuỗi ký tự|Ví dụ: Mặt bằng kinh doanh|
+|apartment_type|Loại hình căn hộ|Chuỗi ký tự|Ví dụ: Chung cư|
 |certificates|Giấy tờ pháp lý|Chuỗi ký tự|Ví dụ: Đã có sổ, Đang chờ sổ|
-|status|Tình trạng nhà|Chuỗi ký tự||
+|status|Tình trạng nhà|_|_|
 |furniture_status|Tình trạng nội thất|Chuỗi ký tự|Ví dụ: Bàn giao thô, Hoàn thiện cơ bản, Hoàn thiện đầy đủ,...|
 |estate_status|Tình trạng bất động sản|Chuỗi ký tự|Ví dụ: Đang tranh chấp|
-|apartment_specific|Đặc điểm căn hộ|Chuỗi ký tự||
+|apartment_specific|Đặc điểm căn hộ|Chuỗi ký tự|Ví dụ: Căn góc|
 |house_specific|Đặc điểm nhà ở|Chuỗi ký tự|Ví dụ: Hẻm xe hơi, Nở hậu,...|
 |price_m2|Giá trên 1m2 đất|Số thực|Ví dụ: 10 triệu/m2|
 |price_square|Giá bán 1 căn nhà|Số thực| Ví dụ: 10 tỷ - 100m2|
-|_type_|Loại khác|||
+|_type_|Loại khác|_|_|
 |house_type|Loại nhà ở|Chuỗi ký tự|Ví dụ: Nhà mặt tiền, mặt phố, Nhà biệt thự, Nhà phố liền kề, Nhà ngỏ, hẻm|
 
 ### 6. Tự đánh giá đồ án:
