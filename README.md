@@ -105,6 +105,8 @@ Cấu trúc code chia làm 3 file:
 - ***DataPreprocessing.ipynb***: File notebook thực hiện phân tích, tiền xử lý và trực quan hóa dữ liệu. Dùng jupyter-lab (hoặc jupyter-notebook) để mở file và chọn *Run -> Run All* hoặc *Kernel -> Restart Kernel and Run All*.
 - ***ModelPrediction.ipynb***: File notebook thực thi chuẩn bị dữ liệu cho quá trình học, các model được lựa chọn, kết quả thu được và kết luận. Dùng jupyter-lab (hoặc jupyter-notebook) để mở file và chọn *Run -> Run All* hoặc *Kernel -> Restart Kernel and Run All*.
 
+**Lưu ý**: *Một số phần của các file có thể có thời gian chạy hơi lâu do qua strinhf thu thập dữ liệu nhiều, xử lý nhiều dòng dữ liệu, các mô hình chạy nhiều tham số,...*
+
 Dữ liệu được thu thập lưu trữ trong thư mực Data với tổ chức:
 - Data:
   - Crawl: chứa dữ liệu thô khi mới được thu thập về.
