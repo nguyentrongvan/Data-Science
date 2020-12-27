@@ -112,4 +112,4 @@ Dữ liệu được thu thập lưu trữ trong thư mực Data với tổ ch�
     - Data.csv: data sau khi ghép các file thô lại. (thu thập từng file nhỏ rồi ghép lại thành file lớn)
     - data_house.csv: dữ liệu nhà được lọc lại.
   - Preprocessing:
-    - pr
+    - preprocessing_data.csv: dữ liệu sau khi được tiền xử lý. 
