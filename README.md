@@ -69,7 +69,7 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |price_m2|Giá trên 1m2 đất|Số thực|Ví dụ: 10 triệu/m2|
 |price_square|Giá bán 1 căn nhà|Số thực| Ví dụ: 10 tỷ - 100m2|
 |_type_|Loại khác|||
-|house_type|Loại nhà ở|Ví dụ: Nhà mặt tiền, mặt phố, Nhà biệt thự, Nhà phố liền kề, Nhà ngỏ, hẻm|
+|house_type|Loại nhà ở|Chuỗi ký tự|Ví dụ: Nhà mặt tiền, mặt phố, Nhà biệt thự, Nhà phố liền kề, Nhà ngỏ, hẻm|
 
 ### 6. Tự đánh giá đồ án:
 
