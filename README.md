@@ -28,7 +28,7 @@ Có thể phân loại nhà ở (mặt tiền, ngõ hẻm,biệt thự, ...) the
 - File *CrawData.ipynb* là file code thực hiện thu thập dữ liệu.
 
 ### 4. Tổng quan dữ liệu thu thập:
-- Dữ liệu thu thập được tổng cộng có 19411 mẫu và tổng số 31 thuộc tính.
+- Dữ liệu thu thập được tổng cộng có 19411 mẫu và tổng số 30 thuộc tính.
 - Dữ liệu được thu thập từ tin đăng mua bán giao dịch nhà đất của 19 quận thuộc Thành phố Hồ Chí Minh.
 - Thuộc tính cần dự đoán là `house_type` - tức là `Loại nhà ở` với 4 giá trị bao gồm: 
   - Nhà mặt tiền, mặt phố.
@@ -37,7 +37,7 @@ Có thể phân loại nhà ở (mặt tiền, ngõ hẻm,biệt thự, ...) the
   - Nhà biệt thự.
 
 ### 5. Thuộc tính dữ liệu:
-Dữ liệu thu thập được gồm 31 thuộc tính với ý nghĩa:
+Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |Tên thuộc tính|Ý nghĩa|Kiểu dữ liệu|Giá trị|
 |:----------:|:----------|:----------:|:----------|
 |title|Chủ đề|Chuỗi ký tự| Ví dụ: Nhà phố cao cấp|
@@ -60,6 +60,7 @@ Dữ liệu thu thập được gồm 31 thuộc tính với ý nghĩa:
 |estate_type|Loại hình đất|Chuỗi ký tự||
 |office_type|Loại hình văn phòng|Chuỗi ký tự||
 |apartment_type|Loại hình căn hộ|Chuỗi ký tự||
+|certificates|Giấy tờ pháp lý|Chuỗi ký tự|Ví dụ: Đã có sổ, Đang chờ sổ|
 |status|Tình trạng nhà|Chuỗi ký tự||
 |furniture_status|Tình trạng nội thất|Chuỗi ký tự|Ví dụ: Bàn giao thô, Hoàn thiện cơ bản, Hoàn thiện đầy đủ,...|
 |estate_status|Tình trạng bất động sản|Chuỗi ký tự|Ví dụ: Đang tranh chấp|
@@ -67,4 +68,11 @@ Dữ liệu thu thập được gồm 31 thuộc tính với ý nghĩa:
 |house_specific|Đặc điểm nhà ở|Chuỗi ký tự|Ví dụ: Hẻm xe hơi, Nở hậu,...|
 |price_m2|Giá trên 1m2 đất|Số thực|Ví dụ: 10 triệu/m2|
 |price_square|Giá bán 1 căn nhà|Số thực| Ví dụ: 10 tỷ - 100m2|
-|_type_|Loại khác|
+|_type_|Loại khác|||
+|house_type|Loại nhà ở|Ví dụ: Nhà mặt tiền, mặt phố, Nhà biệt thự, Nhà phố liền kề, Nhà ngỏ, hẻm|
+
+### 6. Tự đánh giá đồ án:
+
+### 7. Phân công công việc:
+
+### 8. Hướng dẫn chạy code:
