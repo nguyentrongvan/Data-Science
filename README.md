@@ -24,7 +24,7 @@ Có thể phân loại nhà ở (mặt tiền, ngõ hẻm,biệt thự, ...) the
 
 ### 3. Cách thức thu thập dữ liệu:
 - Dữ liệu được thu thập bằng cách parse HMTL để tìm ra các trường thông tin cần thiết cho đồ án.
-- Nguồn thu thập dữ liệu được lấy từ mục mua bán nhà đất, BĐS của website Chợ Tốt (https://www/chotot.com).
+- Nguồn thu thập dữ liệu được lấy từ mục mua bán nhà đất, BĐS của website Chợ Tốt (https://www.chotot.com).
 - File *CrawData.ipynb* là file code thực hiện thu thập dữ liệu.
 
 ### 4. Tổng quan dữ liệu thu thập:
@@ -35,3 +35,14 @@ Có thể phân loại nhà ở (mặt tiền, ngõ hẻm,biệt thự, ...) the
   - Nhà phố liền kề.
   - Nhà ngõ, hẻm.
   - Nhà biệt thự.
+
+### 5. Thuộc tính dữ liệu:
+Dữ liệu thu thập được gồm 31 thuộc tính với ý nghĩa:
+|Tên thuộc tính|Ý nghĩa|Kiểu dữ liệu|Giá trị|
+|:----------:|:----------|:----------:|:----------|
+|project_name|Tên dự án mua bán|Chuỗi ký tự|Ví dụ: |
+|apartment_code|Mã căn hộ|Chuỗi ký tự|Ví dụ: |
+|block_name|Tên của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: |
+|block_code|Mã của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: |
+|square|Diện tích đất (dùng cho mua bán đất)|Số thực|Ví dụ: $30 m^2$|
+|square_area|Diện tích đất (dùng cho mua bán nhà)|Số thực|Ví dụ: $100 m^2$|
