@@ -40,9 +40,31 @@ Có thể phân loại nhà ở (mặt tiền, ngõ hẻm,biệt thự, ...) the
 Dữ liệu thu thập được gồm 31 thuộc tính với ý nghĩa:
 |Tên thuộc tính|Ý nghĩa|Kiểu dữ liệu|Giá trị|
 |:----------:|:----------|:----------:|:----------|
-|project_name|Tên dự án mua bán|Chuỗi ký tự|Ví dụ: |
-|apartment_code|Mã căn hộ|Chuỗi ký tự|Ví dụ: |
+|title|Chủ đề|Chuỗi ký tự| Ví dụ: Nhà phố cao cấp|
+|address|Địa chỉ|Chuỗi ký tự|Ví dụ: Đường Nguyễn Văn Nguyễn, Phường Tân Định, Quận 1, Tp Hồ Chí Minh|
+|project_name|Tên dự án mua bán|Chuỗi ký tự|Ví dụ: Vạn Xuân Đất Việt|
+|apartment_code|Mã căn hộ|Chuỗi ký tự|Ví dụ: 88, 10|
 |block_name|Tên của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: |
 |block_code|Mã của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: |
-|square|Diện tích đất (dùng cho mua bán đất)|Số thực|Ví dụ: $30 m^2$|
-|square_area|Diện tích đất (dùng cho mua bán nhà)|Số thực|Ví dụ: $100 m^2$|
+|square|Diện tích đất (dùng cho mua bán đất)|Số thực|Ví dụ: 30 m2|
+|square_area|Diện tích đất (dùng cho mua bán nhà)|Số thực|Ví dụ: 100 m2|
+|square_in_use|Diện tích sử dụng (tổng diện tích nền được xây dựng)|Số thực| Ví dụ: 200 m2|
+|bedroom|Số phòng ngủ có|Số nguyên|Ví dụ: 5 phòng, Nhiều hơn 10 phòng|
+|wc|Số phòng vệ sinh có|Số nguyên|Ví dụ: 2 phòng, Nhiều hơn 6 phòng|
+|num_floor|Tổng số tầng trong nhà|Số nguyên|Ví dụ: 1,2,10,...|
+|floor|Tầng cần bán (nếu là chung cư)|Số nguyên|Ví dụ: 1,2,...|
+|width|Chiều rộng khu dất|Số thực|Ví dụ: 2.5 m|
+|height|Chiều dài khu đất|Số thực|Ví dụ: 4.5 m, 3 m|
+|door|Hướng cửa chính|Chuỗi ký tự|Ví dụ: Tây-Nam, Bắc|
+|balcony|Hướng ban công|Chuỗi ký tự|Ví dụ: Bắc, Đông Nam|
+|estate_type|Loại hình đất|Chuỗi ký tự||
+|office_type|Loại hình văn phòng|Chuỗi ký tự||
+|apartment_type|Loại hình căn hộ|Chuỗi ký tự||
+|status|Tình trạng nhà|Chuỗi ký tự||
+|furniture_status|Tình trạng nội thất|Chuỗi ký tự|Ví dụ: Bàn giao thô, Hoàn thiện cơ bản, Hoàn thiện đầy đủ,...|
+|estate_status|Tình trạng bất động sản|Chuỗi ký tự|Ví dụ: Đang tranh chấp|
+|apartment_specific|Đặc điểm căn hộ|Chuỗi ký tự||
+|house_specific|Đặc điểm nhà ở|Chuỗi ký tự|Ví dụ: Hẻm xe hơi, Nở hậu,...|
+|price_m2|Giá trên 1m2 đất|Số thực|Ví dụ: 10 triệu/m2|
+|price_square|Giá bán 1 căn nhà|Số thực| Ví dụ: 10 tỷ - 100m2|
+|_type_|Loại khác|
