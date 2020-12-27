@@ -70,7 +70,7 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |price_square|Giá bán 1 căn nhà|Số thực| Ví dụ: 10 tỷ - 100m2|
 |_type_|Loại khác|_|_|
 |house_type|Loại nhà ở|Chuỗi ký tự|Ví dụ: Nhà mặt tiền, mặt phố, Nhà biệt thự, Nhà phố liền kề, Nhà ngỏ, hẻm|
-
+*(Một số trường thuộc tính không xác định được đánh dấu bằng _)*
 ### 6. Tự đánh giá đồ án:
 ***Nhận xét:***
 - Đồ án hoàn thành tốt và đúng thời gian quy định.
