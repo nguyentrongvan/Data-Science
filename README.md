@@ -108,10 +108,10 @@ Cấu trúc code chia làm 3 file:
 **Lưu ý**: *Một số phần của các file có thể có thời gian chạy hơi lâu do quá trình thu thập dữ liệu nhiều, xử lý nhiều dòng dữ liệu, các mô hình chạy nhiều tham số,...*
 
 Dữ liệu được thu thập lưu trữ trong thư mực Data với tổ chức:
-- Data:
-  - Crawl: chứa dữ liệu thô khi mới được thu thập về.
-  - Normal:
-    - Data.csv: data sau khi ghép các file thô lại. (thu thập từng file nhỏ rồi ghép lại thành file lớn)
-    - data_house.csv: dữ liệu nhà được lọc lại.
-  - Preprocessing:
-    - preprocessing_data.csv: dữ liệu sau khi được tiền xử lý. 
+Data:
+|____Crawl: chứa dữ liệu thô khi mới được thu thập về.
+|____Normal:
+     |____Data.csv: data sau khi ghép các file thô lại. (thu thập từng file nhỏ rồi ghép lại thành file lớn)
+     |____data_house.csv: dữ liệu nhà được lọc lại.
+|____Preprocessing:
+     |____preprocessing_data.csv: dữ liệu sau khi được tiền xử lý. 
