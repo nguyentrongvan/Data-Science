@@ -110,7 +110,7 @@ Cấu trúc code chia làm 3 file:
 Dữ liệu được thu thập lưu trữ trong thư mực Data với tổ chức:
 - Data:
   - Crawl: chứa dữ liệu thô khi mới được thu thập về.
-  - Normalize:
+  - Normal:
     - Data.csv: data sau khi ghép các file thô lại. (thu thập từng file nhỏ rồi ghép lại thành file lớn)
     - data_house.csv: dữ liệu nhà được lọc lại.
   - Preprocessing:
