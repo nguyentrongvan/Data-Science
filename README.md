@@ -44,7 +44,7 @@ Dữ liệu thu thập được gồm 30 thuộc tính với ý nghĩa:
 |address|Địa chỉ|Chuỗi ký tự|Ví dụ: Đường Nguyễn Văn Nguyễn, Phường Tân Định, Quận 1, Tp Hồ Chí Minh|
 |project_name|Tên dự án mua bán|Chuỗi ký tự|Ví dụ: Vạn Xuân Đất Việt|
 |apartment_code|Mã căn hộ|Chuỗi ký tự|Ví dụ: 88, 10|
-|block_name|Tên của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: KDC Vĩnh Loccj 3|
+|block_name|Tên của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: KDC Vĩnh L 3|
 |block_code|Mã của khu, phân lô cần giao dịch|Chuỗi ký tự|Ví dụ: D3, B2|
 |square|Diện tích đất (dùng cho mua bán đất)|Số thực|Ví dụ: 30 m2|
 |square_area|Diện tích đất (dùng cho mua bán nhà)|Số thực|Ví dụ: 100 m2|
